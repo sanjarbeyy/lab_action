@@ -2,7 +2,7 @@ name: firstautoaction
 on:
    push:
     paths:
-      - 'docs/**'
+      -'docs/**'
   workflow_dispatch:
     inputs:
       customer:
