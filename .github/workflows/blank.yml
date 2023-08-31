@@ -1,7 +1,7 @@
 name: firstautoaction
 on:
    push:
-    paths:
+    paths-ignore:
       -'docs/**'
   workflow_dispatch:
     inputs:
